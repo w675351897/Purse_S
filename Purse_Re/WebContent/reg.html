@@ -1,0 +1,36 @@
+<html>
+<head>
+<meta charset="Utf-8">
+<script src="js/register.js" type="text/javascript" charset="utf-8"></script>
+<script src="js/jquery-1.7.2.min.js" type="text/javascript" charset="utf-8">
+</script>
+</head>
+<body>
+
+ <form action="js/register.js" id="registerform"
+			name="registerform" method="post">
+			<input type="hidden" id="url">
+			<p>
+				<label class="label_input">用户名</label>
+				<input type="text"id="username"  />
+			</p>
+			<p>
+				<label class="label_input">密码</label>
+				<input type="text"id="password"  />
+			</p>
+			<p>
+				<label class="label_input">密码确认 </label>
+				<input type="text"id="repassword" />
+			</p>
+			
+			
+			<div id="register_control">
+				<input type="button" id="btn_register" value="注册"
+					onclick="register();" />
+			</div>
+
+			
+		</form>
+
+</body>
+</html>
